@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lora:ital@1&family=Source+Sans+Pro:wght@300&family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato&family=Lora:ital@1&family=Source+Sans+Pro:wght@300&family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+
+header {
+    display: flex;
+    background:url("fondo.jpg");
+    height: 80px;
+    width: 100%;
+    background-size:cover ;
+    background-repeat:no-repeat ;
+    gap: 100px;
+    grid-gap: 100px;
+}
+
+.logoHarmony {
+    border-radius: 80%;
+    -webkit-border-radius: 800%;
+    -moz-border-radius: 800%;
+    -ms-border-radius: 800%;
+    -o-border-radius: 800%;
+    width: 60px;
+    padding-left: 10px;
+    padding-top: 15px;
+ 
+}
+
+.menu{
+    display: flex;
+    list-style-type:none;
+    gap: 100px;
+    grid-gap: 100px;
+    align-items:center ;
+    height: 100%;
+}
+
+.menu__item a{
+    color: rgb(14, 41, 1);
+    text-decoration: none;
+    font-family:'Abril Fatface', cursive;;
+  
+}
+
+.menu__item.active a{
+    text-decoration: underline double;
+    color: rgb(160, 160, 233);
+}
+
+.primeraImagen {
+  height: 85vh;
+  background-image: url("./fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-inline: 200px;
+  background-position: center center
+}
+
+.primeraImagen h2{
+  text-align:center;
+  color: rgb(4, 61, 70);
+  font-family: 'Square Peg', cursive;
+  font-size:80px;
+  padding-top: 0;
+  padding-left: 15px;
+  padding-bottom: 30px;
+    
+}
+.primeraImagen p{
+  font-family: 'Source Sans Pro', sans-serif;
+  color:black;
+  background-color: rgba(103, 248, 139, 0.150);
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-inline: 20px;
+  text-align:center
+}
+.primeraImagen p1{
+  font-family: 'Lora', serif;
+  color:black;
+  background-color: rgba(103, 248, 139, 0.150);
+  padding-bottom: 10px;
+  padding-inline: 20px;
+  text-align:center
+}
+
+.imagendinamicas {
+  padding: 50px;
+  display: flex;
+  gap: 30px;
+}
+
+.imagendinamica {
+  background-color: #87f3a84d;
+  border-radius: 30px;
+  overflow: hidden;
+  display: flex;
+  gap: 15px;
+  
+}
+
+.foto__h{
+  width: 100%;
+}
+
+.titulo_mapa{
+  text-align:center;
+  color: rgb(4, 61, 70);
+  font-family: 'Square Peg', cursive;
+  font-size:30px;
+  padding-top: 0;
+  padding-inline: 20px;
+  background-color:rgba(103, 248, 139, 0.200) ;
+
+}
+
+.tarjeta_mapas{
+  padding: 60px;
+  display: flex;
+  gap: 30px;
+}
+
+.tarjeta_mapa{
+  background-color: #34f06d58;
+  border-radius: 30px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.informacion{
+  padding: 0 20px 20px 20px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.tarjetita__imagen {
+  max-width: 100%;
+}
+
+
+.img_mapa{
+  width: 100%;
+}
+
+
+.redes {
+  background-color: #08632b48;
+  padding-block: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+/*Estilo Exclusivo de page sobre_nosotros*/
+.video{
+  width: 70%; 
+  margin: 0 auto;
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.fundadores{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-inline: 200px;
+  background-position: center center;
+  background-color: rgba(243, 237, 229, 0.79);
+  background-size:cover ;
+  background-repeat:no-repeat ;
+  
+}
+
+.fundadores__titulo{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  padding-top:20px ;
+  padding-bottom: 15px;
+  color: rgb(8, 93, 17);
+  text-decoration: underline;
+  font-weight: 500;
+
+
+}
+
+.fundadores__descripcion{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-small;
+  padding-bottom: 25px;
+
+}
+
+
+/*Estilo Exclusivo de page locaciones*/
+
+.clinicas_img{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-inline: 50px;
+  display: flex;
+  justify-content: center;
+  background-color: #34f06c21;
+  border-radius: 30px;
+  overflow: hidden;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+
+}
+
+.clinica__img{
+  border-radius: 10%;
+  width: 100%;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
+}
+
+
+.clinica__titulo{
+  font-size: xx-large;
+  color: rgb(7, 90, 19);
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  padding-bottom: 25px;
+  
+
+}
+.clinicas__imgdes{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: rgb(4, 88, 60);
+  font-size: medium;
+  text-align: center;
+
+}
+.info_clinicas{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+.info__clinicaslista{
+  font-size: small;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+.info__clinicastitulo{
+  font-size: xx-large;
+  color: rgb(7, 90, 19);
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  padding-bottom: 25px;
+  padding-top:30px ;
+
+}
+
+/*Estilo Exclusivo de page servicios*/
+
+.fotos_tratamiento{
+  padding: 50px;
+  display: flex;
+  gap: 30px;
+  }
+
+.tratamiento_img{
+  background-color: #87f3a84d;
+  border-radius: 30px;
+  overflow: hidden;
+  display: flex;
+  gap: 15px;
+ 
+}
+
+.tratamiento__img{
+  width: 100%;
+}
+
+.lista__tipostratamientos{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  list-style-type: none;
+  text-align: center;
+  
+  }
+
+.lista__titulotratamientos{
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: large;
+  padding-top:20px ;
+  padding-bottom: 15px;
+  text-decoration: underline;
+  background:url("fondo.jpg");
+
+
+}
+
+/*Estilo Exclusivo de page reservas. Se aplicara Grids y se seguirá mejorando el formulario*/
+.reservas_titulo{
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  background:url("fondo.jpg");
+  padding-top:20px ;
+  padding-bottom: 15px;
+  text-decoration: underline;
+  font-size: large;
+
+}
+
+.formulario{
+  background-color: aliceblue;
+  padding-top:30px ;
+  padding-bottom: 35px;
+
+}

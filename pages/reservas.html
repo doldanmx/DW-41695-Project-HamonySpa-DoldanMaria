@@ -1,0 +1,145 @@
+<!--Maria Doldan -->
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet" type="text/css">
+
+
+
+    <title>Harmony SPA Uruguay</title>
+
+</head>
+
+<body>
+
+
+    <header>
+       
+        <div class="logo_titulo">
+            <img class="logoHarmony" src="../assets/img/logoHarmonySPA.png" class="img" alt="Logo de Harmony Spa">
+        </div>
+        <!--Menu-->
+
+        <nav class="navbar">
+            <ul class="menu">
+                <li class="menu__item active"> <a href="../index.html">Inicio</a> </li>
+                <li class="menu__item"> <a href="./servicios.html">Servicios</a> </li>
+                <li class="menu__item"> <a href="./sobre_nosotros.html">Sobre Nosotros</a> </li>
+                <li class="menu__item"> <a href="./locaciones.html">Locaciones</a></li>
+                <li class="menu__item"> <a href="./reservas.html">Reservas</a></li>
+
+            </ul>
+        </nav>
+   
+
+    </header>
+   
+    <section class ="primeraImagen">
+        <h2>Realice su Reserva</h2>
+    </section>
+<hr>
+
+<article class="reservas">
+    
+    <h3 class=reservas_titulo>Reservas</h3>
+
+    <form class="formulario" action="">
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos"/>
+
+        <label for="nombres">Nombres:</label>
+        <input type="text" id="nombres"/>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono"/>
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" placeholder="nombre@ejemplo.com"/>
+
+        <small>Seleccione su lugar de atención</small>
+
+        <label for="clinica">Clínica:</label>
+        <select id="clinica">
+            <option value="Carrasco">Carrasco</option>
+            <option value="Prado">Prado</option>
+            </select>
+    
+        <label for="genero">Género:</label>
+        <select id="genero">
+            <option value="Hombre">Hombre</option>
+            <option value="Mujer">Mujer</option>
+            </select>       
+
+    <fieldset>
+        <legend>Seleccione el rango de edad:</legend>
+
+        <div>
+        <input type="radio" id="rango1" name="edad" value="1"
+                checked>
+        <label for="rango1">menor a 20 años</label>
+        </div>
+
+        <div>
+        <input type="radio" id="rango2" name="edad" value="2">
+        <label for="rango2">de 20 a 30 años</label>
+        </div>
+        
+        <div>
+            <input type="radio" id="rango3" name="edad" value="3">
+            <label for="rango3">de 30 a 40 años</label>
+        </div>
+
+        <div>
+            <input type="radio" id="rango4" name="edad" value="4">
+            <label for="rango4">más de 40 años</label>
+        </div>
+    <hr>
+    <h3> Elija el tratamiento deseado: </h3>
+    <div>
+        <label><input type="checkbox" id="cbox1" value="first_checkbox"> Tratamiento láser Depilación</label>
+        <input type="checkbox" id="cbox2" value="second_checkbox"> <label for="cbox2">Masajes Descontracturantes</label>
+        <input type="checkbox" id="cbox2" value="second_checkbox"> <label for="cbox2">Limpieza facial profunda</label>
+        <input type="checkbox" id="cbox2" value="second_checkbox"> <label for="cbox2">Electrodos Reafirmantes</label>
+        <input type="checkbox" id="cbox2" value="second_checkbox"> <label for="cbox2">Mesoterapia</label>
+        <input type="checkbox" id="cbox2" value="second_checkbox"> <label for="cbox2">Masajes con Piedras Calientes</label><br>
+        <input type="checkbox" id="cbox2" value="second_checkbox"> <label for="cbox2">Día completo de SPA</label>
+
+
+
+    </div>
+        
+        
+    </fieldset>
+
+
+        <div id="terminos">
+            <label for="terminos">¿Aceptas nuestros términos y condiciones?</label>
+            <input type="checkbox" name="acepto" value="1"/>
+        </div>
+
+        <!-- Acciones definidas -->
+        <input type="button" value="Aceptar"/>
+        <input type="reset" value="Limpiar campos"/>
+        <input type="submit" value="Registrar"/>
+    </form>
+
+</article>
+
+ <!--aca hay que poner el footer ir modificando a lo largo del proyecto-->
+ <pie>
+    <div class="redes">
+        <h4 class="redes__titulo">Seguinos en todas nuestras redes sociales!!</h4>
+        <a  href="https://www.instagram.com/"></a><i class="lni lni-instagram-filled"></i>
+        <a  href="https://www.facebook.com/"></a><i class="lni lni-facebook-filled"></i>
+        <a href="https://www.twitter.com/"></a><i class="lni lni-twitter-filled"></i>
+    </div>
+        
+</pie>
+</body>
+</html>
