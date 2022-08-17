@@ -1,31 +1,36 @@
 <!--Maria Doldan -->
 
 <!DOCTYPE html>
-<html lang="es">
+    <html lang="es">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
-    <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
-
-
-
-    <title>Harmony SPA Uruguay</title>
-
-</head>
-
-<body>
-
-
-    <header>
-       
-        <div class="logo_titulo">
-            <img class="logoHarmony" src="assets/img/logoHarmonySPA.png" class="img" alt="Logo de Harmony Spa">
+    <head>
+        <!--Required meta tags-->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+        <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" >
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+      
+        
+  
+    
+        <title>Harmony SPA Uruguay</title>
+    
+    </head>
+      
+    <body>
+        
+   <!-- <header class="navbar">
+          
+        <div class="navbar_logo">
+            <img class="logoHarmony" src="assets/img/logoHarmonySPA.png" alt="Logo de Harmony Spa">
         </div>
-        <!--Menu-->
+     
 
         <nav class="navbar">
             <ul class="menu">
@@ -37,27 +42,68 @@
 
             </ul>
         </nav>
+    -->
 
-    </header>
+    <!--Menu navegador con Bootstrap-->
     
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./assets/img/logoHarmonySPA.png" class="logoHarmony" alt="Logo de Harmony SPA"></a>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+         
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./pages/servicios.html">Servicios</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Información
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./pages/sobre_nosotros.html">Sobre Nosotros</a></li>
+                  <li><a class="dropdown-item" href="./pages/locaciones.html">Locaciones</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./pages/reservas.html"> Reservas</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+ 
     <section class ="primeraImagen">
+        <div class="primeraImagen_grilla">
         <h2>Bienvenidos a Harmony</h2>
-        <p>En Harmony SPA disponemos de una gran variedad de aparatología de última generación y
+        <div class="primeraImagen__grillatexto">
+        <p> En Harmony SPA disponemos de una gran variedad de aparatología de última generación y
             disponemos de un gran equipo de
-            profesionales para conseguir los resultados deseados.</p><br><br> 
-        <p1>Te ofrecemos los mejores equipos de última generación, nuevas
-            tecnologías innovadoras, un espacio de alto nivel totalmente renovado, y asesoramiento experto
-            personalizado, para armar tu plan a medida. </p1>
-    </section>
+            profesionales para conseguir los resultados deseados.</p>
+        </div>
+        </div> 
+        </section>
        
-    <!--las imagenes seran dinamicas se mostraran de a una-->
+    
     <section class="imagendinamicas"> 
         <div class="imagendinamica"> 
             
-            <img src="assets/img/fotospa/foto1HarmonySPA.png" class="foto__h" alt="Foto de Harmony Spa">
-            <img src="assets/img/fotospa/foto2HarmonySPA.png" class="foto__h" alt="Foto de Harmony Spa">
-            <img src="assets/img/fotospa/foto5HarmonySPA.png" class="foto__h" alt="Foto de Harmony Spa">
-            <img src="assets/img/fotospa/foto6HarmonySPA.png" class="foto__h" alt="Foto de Harmony Spa">
+            <img src="assets/img/fotospa/foto1HarmonySPA.png" class="foto__h1" alt="Foto de Harmony Spa">
+            <img src="assets/img/fotospa/foto2HarmonySPA.png" class="foto__h2" alt="Foto de Harmony Spa">
+            <img src="assets/img/fotospa/foto5HarmonySPA.png" class="foto__h3" alt="Foto de Harmony Spa">
+            <img src="assets/img/fotospa/foto6HarmonySPA.png" class="foto__h4" alt="Foto de Harmony Spa">
        
         </div>    
     </section>       
@@ -83,7 +129,7 @@
             </div>
         </div>
     </section>    
-    
+
 
  <!--footer ir modificando a lo largo del proyecto-->
    
@@ -96,6 +142,13 @@
         </div>
             
     </pie>
+  
+    <!--JavaScript-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
