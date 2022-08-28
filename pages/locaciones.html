@@ -10,7 +10,11 @@
     <meta charset="utf-8">
     <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
     <link href="../assets/css/style.css" rel="stylesheet" type="text/css">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+  
+    
 
     <title>Harmony SPA Uruguay</title>
 
@@ -18,27 +22,43 @@
 
 <body>
 
-    <header>
-        
-           
-        <div class="logo_titulo">
-            <img class="logoHarmony" src="../assets/img/logoHarmonySPA.png" class="img" alt="Logo de Harmony Spa">
-        </div>
-        <!--Menu-->
-
-        <nav class="navbar">
-            <ul class="menu">
-                <li class="menu__item active"> <a href="../index.html">Inicio</a> </li>
-                <li class="menu__item"> <a href="./servicios.html">Servicios</a> </li>
-                <li class="menu__item"> <a href="./sobre_nosotros.html">Sobre Nosotros</a> </li>
-                <li class="menu__item"> <a href="./locaciones.html">Locaciones</a></li>
-                <li class="menu__item"> <a href="./reservas.html">Reservas</a></li>
-
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="../assets/img/logoHarmonySPA.png" class="logoHarmony" alt="Logo de Harmony SPA"></a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+     
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./servicios.html">Servicios</a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Información
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../pages/sobre_nosotros.html">Sobre Nosotros</a></li>
+              <li><a class="dropdown-item" href="../pages/locaciones.html">Locaciones</a></li>
             </ul>
-        </nav>
-
-    
-    </header>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../pages/reservas.html"> Reservas</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
    
     
     <section class ="primeraImagen">
@@ -84,76 +104,79 @@
 
  <!--aca hay que poner el footer ir modificando a lo largo del proyecto-->
  <!-- Footer -->
-<footer class="text-center text-lg-start bg-dark text-white text-muted">
-    <!-- Section: Social media -->
-    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-      <!-- Left -->
-      <div class="me-5 d-none d-lg-block">
-        <span>Seguinos en todas nuestras redes sociales:</span>
-      </div>
-      <!-- Left -->
+ <footer class="text-center text-lg-start bg-dark text-white text-muted">
+ 
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+   
+    <div class="me-5 d-none d-lg-block">
+      <span>Seguinos en todas nuestras redes sociales:</span>
+    </div>
   
-      <!-- Right -->
-      <div>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-google"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-github"></i>
-        </a>
-      </div>
-      <!-- Right -->
-    </section>
-    <!-- Section: Social media -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twittecor"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    
+  </section>
   
-    <!-- Section: Links  -->
-    <section class="">
-      <div class="container text-center text-md-start mt-5">
-        <!-- Grid row -->
-        <div class="row mt-3">
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-            <!-- Content -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              <i class="fas fa-gem me-3"></i>Harmony SPA Montevideo
-            </h6>
-            <p>Harmony Spa es el mejor centro de estética de Montevideo, ubicado en el mejor lugar con trato personalizado </p>
-              
-           
-          </div>
-          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-           
-            <p><i class="fas fa-home me-3"></i> Montevideo, Uruguay</p>
-            <p>
-              <i class="fas fa-envelope me-3"></i>
-              HarmonySpa@harmonySpa.com
-            </p>
-            <p><i class="fas fa-phone me-3"></i> + 598 99 587 963</p>
-            </div>
+
+  
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+     
+      <div class="row mt-3">
+        
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
           
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Harmony SPA Montevideo
+          </h6>
+          <p>Harmony Spa es el mejor centro de estética de Montevideo, ubicado en el mejor lugar con trato personalizado </p>
+            
+         
         </div>
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+         
+          <p><i class="fas fa-home me-3"></i> Montevideo, Uruguay</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            HarmonySpa@harmonySpa.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 598 99 587 963</p>
+          </div>
         
       </div>
-      <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2022 Harmony SPA<a class="text-dark" href="#"></a>
+      
     </div>
-    <!-- Copyright -->
-   </section>
-    </div>
-  </footer>
-  <!-- Footer -->
+    
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2022 Harmony SPA<a class="text-dark" href="#"></a>
+  </div>
+  
+ </section>
+  </div>
+</footer>
+<!--JavaScript-->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+
 </body>
 </html>
