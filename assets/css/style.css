@@ -520,6 +520,7 @@
   padding-bottom: 20px;
   list-style-type: none;
   text-align: center;
+  text-decoration: none;
   
   }
 
@@ -531,6 +532,7 @@
   padding-bottom: 15px;
   text-decoration: underline;
   background:url("fondo.jpg");
+  text-decoration: none;
 
 
 }
