@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Square+Peg&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+*::-moz-selection {
+  background-color: black;
+  color: aqua;
+}
+*::selection {
+  background-color: black;
+  color: aqua;
+}
+
+.container-fluid {
+  padding-bottom: 20px;
+  background-image: url("./fondo3.jpg");
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+.container-fluid .logoHarmony {
+  border-radius: 80%;
+  -webkit-border-radius: 800%;
+  -moz-border-radius: 800%;
+  -ms-border-radius: 800%;
+  -o-border-radius: 800%;
+  width: 60px;
+  padding-left: 10px;
+  padding-top: 15px;
+}/*# sourceMappingURL=estilos.css.map */
