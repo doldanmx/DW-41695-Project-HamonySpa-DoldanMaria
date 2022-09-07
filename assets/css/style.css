@@ -35,31 +35,6 @@
   width: max-content;
 }
 
-/*
-.menu{
-   display: flex;
-    list-style-type:none;
-    gap: 100px;
-    grid-gap: 100px;
-    align-items:center ;
-    height: 100%;
-   
-}
-
-.menu__item a{
-    color: rgb(14, 41, 1);
-    text-decoration: none;
-    font-family:'Abril Fatface', cursive;
-  
-}
-
-.menu__item.active a{
-    text-decoration: underline double;
-    color: rgb(160, 160, 233);
-}
-*/
-
-
 .primeraImagen {
   height: 85vh;
   background-image: url("./fondo.jpg");
