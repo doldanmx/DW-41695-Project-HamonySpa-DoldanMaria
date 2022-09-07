@@ -1,0 +1,62 @@
+.titulo_mapa{
+    text-align:center;
+    color: rgb(4, 61, 70);
+    font-family: 'Square Peg', cursive;
+    padding-top: 0;
+    padding-inline: 5px;
+    background-color:rgba(103, 248, 139, 0.200) ;
+    font-size: xx-large;
+  }
+  
+  .tarjeta_mapas{
+    padding: 60px;
+    display: flex;
+    gap: 30px;
+  
+    
+  }
+  
+  .tarjeta_mapa{
+    background-image: url(./fondo2.jpg);
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  }
+  
+  .tarjeta_mapa:hover{
+    transform: scale(.9) translateY(-30px);
+    -webkit-transform: scale(.9) translateY(-30px);
+    -moz-transform: scale(.9) translateY(-30px);
+    -ms-transform: scale(.9) translateY(-30px);
+    -o-transform: scale(.9) translateY(-30px);
+  }
+  
+  .tarjetita__imagen {
+    max-width: 90%;
+    transition: .5seg;
+    -webkit-transition: .5seg;
+    -moz-transition: .5seg;
+    -ms-transition: .5seg;
+    -o-transition: .5seg;
+  }
+  
+  .informacion{
+    padding: 0 20px 20px 20px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: smaller;
+  }
+  
+  .img_mapa{
+    width: 100%;
+    align-items: center;
+  }
+  
+  

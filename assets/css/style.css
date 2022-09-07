@@ -222,12 +222,6 @@
   -o-transform: scale(.9) translateY(-30px);
 }
 
-.informacion{
-  padding: 0 20px 20px 20px;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-size: smaller;
-}
-
 .tarjetita__imagen {
   max-width: 90%;
   transition: .5seg;
@@ -237,6 +231,11 @@
   -o-transition: .5seg;
 }
 
+.informacion{
+  padding: 0 20px 20px 20px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: smaller;
+}
 
 .img_mapa{
   width: 100%;
