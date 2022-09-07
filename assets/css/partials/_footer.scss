@@ -1,0 +1,29 @@
+$redes: (
+    facebook: rgb(30, 30, 171),
+    twitter: blue,  
+    google: red,
+    instagran: brown, 
+    linkedin: black
+);
+
+@each $redsocial, $colordered in $redes{
+    .fa-#{$redsocial}{
+        background-color: $colordered;
+    }
+}
+
+.fa-facebook{
+    width: 50px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    &:hover{
+        background-color: pink;
+    }
+}
+
+.fa-twitter{
+    @extend .fa-facebook;
+}
